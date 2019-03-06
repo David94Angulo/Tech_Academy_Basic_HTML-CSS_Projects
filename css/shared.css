@@ -15,7 +15,8 @@ body {
     background-color: #ffffff;
 }
 
-footer, nav {
+footer,
+ nav {
     display: block;   
 }
 
@@ -114,7 +115,7 @@ section {
 .clearfix:after,
 .container:after,
 .navbar:after {
-    clear:both;
+    clear: both;
     display: table;
     content: " ";
 }
@@ -135,7 +136,7 @@ section {
     content: " ";
     width: 100%;
     position: fixed;
-    z-index:100;
+    z-index: 100;
 
 }
 
@@ -216,12 +217,12 @@ section {
 .reservation h2 {
     width: 70%;
     text-align: center;
-     margin: 0 auto;
-     color: #13161B;
-     font-weight: 500;
-     font-size: 1.3em;
-     letter-spacing: 0pt;
-     word-spacing: 0pt;
+    margin: 0 auto;
+    color: #13161B;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
 }
 
 .reservation h2 span {
@@ -255,10 +256,10 @@ section {
     border-radius: 7px;
     background: rgb(227,222,222);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-.form-rsvp {
+/*.form-rsvp {
     height: 10%;
 }
 
@@ -273,9 +274,9 @@ section {
 
 .rsvp-text {
     text-align: center;
-}
+}*/
 
-.reservation input [type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none; 
     font-weight:600;
@@ -303,6 +304,8 @@ section {
 
 .terms {
     margin: 30px 1px 0 0;
+}
+.terms {
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
